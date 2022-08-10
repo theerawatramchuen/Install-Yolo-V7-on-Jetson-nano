@@ -12,6 +12,7 @@ PyTorch 1.8.0 and torchvision ([see link how to for other Pytorch version](https
 Example : For Python 3.6 Download and install torch-1.8.0-cp36-cp36m-linux_aarch64.whl <br/> <br/>
 $ wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O torch-1.8.0-cp36-cp36m-linux_aarch64.whl<br/>
 $ sudo apt-get install python3-pip libopenblas-base libopenmpi-dev libomp-dev<br/>
+$ pip3 install --upgrade pip <br/>
 $ pip3 install Cython<br/>
 $ pip3 install numpy torch-1.8.0-cp36-cp36m-linux_aarch64.whl<br/>
 $ sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev <br/> 
@@ -35,7 +36,6 @@ $ cd ../  # attempting to load torchvision from build dir will result in import 
 $ pip3 install cython  <br/>
 $ pip3 install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI' <br/>
 $ pip3 install pyyaml --upgrade <br/>
-$ pip3 install --upgrade pip <br/>
 
 ## Clone the YOLOv7 repository<br/>
 ![alt text](https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png)<br/>
