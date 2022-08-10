@@ -27,11 +27,12 @@ We have installed all of the modules. We now test the detection with pre-trained
 Note: YOLOv7 weights must need to be in the yolov7 folder, download the pre-trained weights file from this ([yolov7.py](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt)) or ([yolov7-tiny.py](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt)) if you want a higher processing speed such as video analytic project and move the downloaded file to the current working directory {yolov7} <br/>
 
 $ python3 detect.py --weights yolov7.pt --source inference/images/horses.jpg --img 640 <br/><br/>
+![alt text](https://github.com/theerawatramchuen/Install-Yolo-V7-on-Jetson-Nano/blob/main/horses.jpg)<br/>
+If everything is working fine, then you will be able to get results in the directory as mentioned below.<br/>
 Results Directory : [yolov7/runs/detect/exp/horses.jpg] <br/>
-![alt text](https://github.com/theerawatramchuen/Install-Yolo-V7-on-Jetson-Nano/blob/main/horses.jpg)
 
 ## Detect on Web Cam device 0
 $ python3 detect.py --weights yolov7-tiny.pt --img 640 --source 0 <br/>
 ![alt text](https://github.com/theerawatramchuen/Install-Yolo-V7-on-Jetson-Nano/blob/main/webcam_dev_0.jpg)<br/>
-If everything is working fine, then you will be able to get results in the directory as mentioned below. <br/>
+
 
