@@ -15,6 +15,7 @@ pip3 install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=Pyt
 pip3 install pyyaml --upgrade <br/>
 
 ## Clone the YOLOv7 repository from the link.<br/>
+![alt text](https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png)
 git clone https://github.com/WongKinYiu/yolov7.git <br/>
 cd yolov7 <br/>
 pip3 install -r requirements.txt <br/>
