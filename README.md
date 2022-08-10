@@ -1,6 +1,4 @@
 # Install and run Yolo V7 on Nvidia Jetson Nano
-Hit the follow button on Medium to help increase reach of straight to the point guidance.<br/>
-
 Make sure you are in MAXN Power Mode in order to compile in decent time.<br/>
 
 ## Environment <br/>
