@@ -10,6 +10,12 @@ CUDA 10.2 <br/>
 
 PyTorch 1.8.0 and torchvision ([see link how to](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-11-now-available/72048)) <br/>
 Example : For Python 3.6 Download and install torch-1.8.0-cp36-cp36m-linux_aarch64.whl <br/> <br/>
+$ sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev <br/> 
+$ git clone --branch 0.9.0 https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download <br/> 
+$ cd torchvision <br/> 
+$ export BUILD_VERSION=0.9.0  # where 0.x.0 is the torchvision version  <br/> 
+$ python3 setup.py install --user <br/> 
+$ cd ../  # attempting to load torchvision from build dir will result in import error <br/> 
 $ pip3 install cython  <br/>
 $ pip3 install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI' <br/>
 $ pip3 install pyyaml --upgrade <br/>
