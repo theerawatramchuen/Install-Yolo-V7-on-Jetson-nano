@@ -19,3 +19,13 @@ git clone https://github.com/WongKinYiu/yolov7.git <br/>
 cd yolov7 <br/>
 pip install -r requirements.txt <br/>
 
+## Pre-trained Object Detection:
+
+We have installed all of the modules. We now test the detection with pre-trained weights to confirm that all of our modules are working fine. You can use the mentioned command in terminal/cmd to detect objects with the pre-trained weights. <br/>
+
+Note: YOLOv7 weights must need to be in the yolov7 folder, download the pre-trained weights file from this link and move the downloaded file to the current working directory {yolov7} <br/>
+
+python detect.py --weights yolov7.pt --source inference/images/horses.jpg --img 640 <br/>
+If everything is working fine, then you will be able to get results in the directory as mentioned below. <br/>
+
+Results Directory : [yolov7/runs/detect/exp/horses.jpg] <br/>
