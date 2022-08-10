@@ -13,6 +13,7 @@ Example : For Python 3.6 Download and install torch-1.8.0-cp36-cp36m-linux_aarch
 $ pip3 install cython  <br/>
 $ pip3 install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI' <br/>
 $ pip3 install pyyaml --upgrade <br/>
+$ pip3 install --upgrade pip <br/>
 
 ## Clone the YOLOv7 repository<br/>
 ![alt text](https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png)<br/>
