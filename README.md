@@ -17,7 +17,7 @@ pip3 install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=Pyt
 pip3 install pyyaml --upgrade <br/>
 
 ## Clone the YOLOv7 repository from the link.<br/>
-git clone https://github.com/WongKinYiu/yolov7.git
+git clone https://github.com/WongKinYiu/yolov7.git <br/>
 cd yolov7 <br/>
 pip install -r requirements.txt <br/>
-sudo apt install -y zip htop screen libgl1-mesa-glx
+
