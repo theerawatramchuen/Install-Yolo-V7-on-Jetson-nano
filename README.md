@@ -8,7 +8,7 @@ cuDnn: 8.0 <br/>
 CUDA 10.2 <br/>
 ## Packages to install <br/>
 
-PyTorch 1.8.0 and Torch ([see link how to](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-11-now-available/72048)) <br/>
+PyTorch 1.8.0 and torchvision ([see link how to](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-11-now-available/72048)) <br/>
 Example : For Python 3.6 Download and install torch-1.8.0-cp36-cp36m-linux_aarch64.whl <br/> <br/>
 $ pip3 install cython  <br/>
 $ pip3 install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI' <br/>
