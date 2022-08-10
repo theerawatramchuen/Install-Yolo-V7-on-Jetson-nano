@@ -14,7 +14,7 @@ pip3 install cython  <br/>
 pip3 install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI' <br/>
 pip3 install pyyaml --upgrade <br/>
 
-## Clone the YOLOv7 repository from the link.<br/>
+## Clone the YOLOv7 repository<br/>
 ![alt text](https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png)<br/>
 git clone https://github.com/WongKinYiu/yolov7.git <br/>
 cd yolov7 <br/>
