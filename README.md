@@ -11,7 +11,22 @@ CUDA 10.2 <br/>
 PyTorch 1.8.0 and torchvision ([see link how to](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-11-now-available/72048)) <br/>
 Example : For Python 3.6 Download and install torch-1.8.0-cp36-cp36m-linux_aarch64.whl <br/> <br/>
 $ sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev <br/> 
-$ git clone --branch 0.9.0 https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download <br/> 
+$ git clone --branch v0.9.0 https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download <br/><br/> 
+
+Select the version of torchvision to download depending on the version of PyTorch that you have installed:<br/> <br/> 
+
+PyTorch v1.0 - torchvision v0.2.2<br/> 
+PyTorch v1.1 - torchvision v0.3.0<br/> 
+PyTorch v1.2 - torchvision v0.4.0<br/> 
+PyTorch v1.3 - torchvision v0.4.2<br/> 
+PyTorch v1.4 - torchvision v0.5.0<br/> 
+PyTorch v1.5 - torchvision v0.6.0<br/> 
+PyTorch v1.6 - torchvision v0.7.0<br/> 
+PyTorch v1.7 - torchvision v0.8.1<br/> 
+PyTorch v1.8 - torchvision v0.9.0<br/> 
+PyTorch v1.9 - torchvision v0.10.0<br/> 
+PyTorch v1.10 - torchvision v0.11.1<br/> <br/> 
+
 $ cd torchvision <br/> 
 $ export BUILD_VERSION=0.9.0  # where 0.x.0 is the torchvision version  <br/> 
 $ python3 setup.py install --user <br/> 
