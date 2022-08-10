@@ -29,4 +29,4 @@ python detect.py --weights yolov7.pt --source inference/images/horses.jpg --img 
 If everything is working fine, then you will be able to get results in the directory as mentioned below. <br/>
 
 Results Directory : [yolov7/runs/detect/exp/horses.jpg] <br/>
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/theerawatramchuen/Install-Yolo-V7-on-Jetson-Nano/blob/main/horses.jpg)
