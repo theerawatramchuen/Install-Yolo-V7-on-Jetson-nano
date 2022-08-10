@@ -31,6 +31,7 @@ Results Directory : [yolov7/runs/detect/exp/horses.jpg] <br/>
 ![alt text](https://github.com/theerawatramchuen/Install-Yolo-V7-on-Jetson-Nano/blob/main/horses.jpg)
 
 ## Detect on Web Cam device 0
-$ python3 detect.py --weights yolov7-tiny.pt --img 640 --source 0 <br/><br/>
+$ python3 detect.py --weights yolov7-tiny.pt --img 640 --source 0 <br/>
+![alt text](https://github.com/theerawatramchuen/Install-Yolo-V7-on-Jetson-Nano/blob/main/webcam_dev_0.jpg)<br/>
 If everything is working fine, then you will be able to get results in the directory as mentioned below. <br/>
 
