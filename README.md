@@ -13,7 +13,7 @@ Example : For Python 3.6 Download and install torch-1.8.0-cp36-cp36m-linux_aarch
 $ wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O torch-1.8.0-cp36-cp36m-linux_aarch64.whl<br/>
 $ sudo apt-get install python3-pip libopenblas-base libopenmpi-dev libomp-dev<br/>
 $ pip3 install --upgrade pip <br/>
-$ pip3 install Cython<br/>
+$ python3 -m pip install Cython #pip3 install Cython<br/>
 $ pip3 install numpy torch-1.8.0-cp36-cp36m-linux_aarch64.whl<br/>
 $ sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev <br/> 
 $ git clone --branch v0.9.0 https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download <br/><br/> 
