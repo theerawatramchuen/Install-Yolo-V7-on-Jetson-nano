@@ -30,8 +30,12 @@ $ python3 setup.py install --user <br/>
 $ cd ../  <br/> 
 $ python3 -m pip install 'pillow<7' <br/>
 $ python3 <br/>
-'>>> print (torch.__version__) # You should see version of pytorch <br/>
-'>>> print (torch.__version__) # You should see version of torchvision <br/>
+'>>> import torch <br/>
+'>>> import torchvision <br/>
+'>>> print (torch.__ version__) <br/>
+1.8.0 <br/>
+'>>> print (torchvision.__ version__) <br/>
+0.9.0 <br/>
 '>>> exit() <br/>
 $ python3 -m pip install cython  <br/>
 $ python3 -m pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI' <br/>
