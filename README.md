@@ -21,7 +21,7 @@ Select the version of torchvision to download depending on the version of PyTorc
 PyTorch v1.5 - torchvision v0.6.0<br/> 
 PyTorch v1.6 - torchvision v0.7.0<br/> 
 PyTorch v1.7 - torchvision v0.8.1<br/> 
-PyTorch v1.8 - torchvision v0.9.0<br/> 
+PyTorch v1.8 - torchvision v0.9.0 # Pick for this example setup<br/> 
 PyTorch v1.9 - torchvision v0.10.0<br/> 
 PyTorch v1.10 - torchvision v0.11.1<br/> <br/> 
 $ cd torchvision <br/> 
