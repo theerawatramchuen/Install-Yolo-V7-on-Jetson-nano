@@ -34,7 +34,11 @@ $ export BUILD_VERSION=0.9.0  # where 0.x.0 is the torchvision version  <br/>
 $ python3 setup.py install --user <br/> 
 $ cd ../  # attempting to load torchvision from build dir will result in import error <br/> 
 $ python3 -m install 'pillow<7' <br/>
-$ ppython3 -m install cython  <br/>
+$ python3 <br/>
+'>>> print (torch.__version__) # You should see version of pytorch <br/>
+'>>> print (torch.__version__) # You should see version of torchvision <br/>
+'>>> exit() <br/>
+$ python3 -m install cython  <br/>
 $ python3 -m install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI' <br/>
 $ python3 -m install pyyaml --upgrade <br/>
 
