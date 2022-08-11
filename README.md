@@ -32,7 +32,7 @@ PyTorch v1.10 - torchvision v0.11.1<br/> <br/>
 $ cd torchvision <br/> 
 $ export BUILD_VERSION=0.9.0  # where 0.x.0 is the torchvision version  <br/> 
 $ python3 setup.py install --user <br/> 
-$ cd ../  # attempting to load torchvision from build dir will result in import error <br/> 
+$ cd ../  <br/> 
 $ python3 -m install 'pillow<7' <br/>
 $ python3 <br/>
 '>>> print (torch.__version__) # You should see version of pytorch <br/>
