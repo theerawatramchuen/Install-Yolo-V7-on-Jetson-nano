@@ -16,7 +16,7 @@ $ pip3 install --upgrade pip <br/>
 $ python3 -m pip install Cython #pip3 install Cython<br/>
 $ python3 -m pip install numpy torch-1.8.0-cp36-cp36m-linux_aarch64.whl<br/>
 $ sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev <br/> 
-$ git clone --branch v0.9.0 https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download <br/><br/> 
+$ git clone --branch v0.9.0 https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download <br/>
 $ cd torchvision <br/> 
 $ export BUILD_VERSION=0.9.0  # where 0.x.0 is the torchvision version  <br/> 
 $ python3 setup.py install --user <br/> 
