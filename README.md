@@ -14,7 +14,7 @@ $ wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl
 $ sudo apt-get install python3-pip libopenblas-base libopenmpi-dev libomp-dev<br/>
 $ pip3 install --upgrade pip <br/>
 $ python3 -m pip install Cython #pip3 install Cython<br/>
-$ python3 -m install numpy torch-1.8.0-cp36-cp36m-linux_aarch64.whl<br/>
+$ python3 -m pip install numpy torch-1.8.0-cp36-cp36m-linux_aarch64.whl<br/>
 $ sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev <br/> 
 $ git clone --branch v0.9.0 https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download <br/><br/> 
 Select the version of torchvision to download depending on the version of PyTorch that you have installed:<br/>
@@ -28,14 +28,14 @@ $ cd torchvision <br/>
 $ export BUILD_VERSION=0.9.0  # where 0.x.0 is the torchvision version  <br/> 
 $ python3 setup.py install --user <br/> 
 $ cd ../  <br/> 
-$ python3 -m install 'pillow<7' <br/>
+$ python3 -m pip install 'pillow<7' <br/>
 $ python3 <br/>
 '>>> print (torch.__version__) # You should see version of pytorch <br/>
 '>>> print (torch.__version__) # You should see version of torchvision <br/>
 '>>> exit() <br/>
-$ python3 -m install cython  <br/>
-$ python3 -m install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI' <br/>
-$ python3 -m install pyyaml --upgrade <br/>
+$ python3 -m pip install cython  <br/>
+$ python3 -m pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI' <br/>
+$ python3 -m pip install pyyaml --upgrade <br/>
 
 ## Clone the YOLOv7 repository<br/>
 ![alt text](https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png)<br/>
