@@ -2,33 +2,17 @@
 Make sure you are in MAXN Power Mode in order to compile in decent time.<br/>
 
 ## Environment <br/>
-
-JetPack version: 4.5.1 <br/>
-cuDnn: 8.0 <br/>
+Ubuntu 20.04 [get disk image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image)<br/>
+JetPack version: 4.6 <br/>
+cuDnn: 8.2 <br/>
 CUDA 10.2 <br/>
-## Packages to install <br/>
-
-PyTorch 1.8.0 and torchvision 0.9.0([see link how to for other Pytorch version](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-11-now-available/72048)) <br/>
-Example : For Python 3.6 Download and install torch-1.8.0-cp36-cp36m-linux_aarch64.whl <br/> <br/>
-$ wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O torch-1.8.0-cp36-cp36m-linux_aarch64.whl<br/>
-$ sudo apt-get install python3-pip libopenblas-base libopenmpi-dev libomp-dev<br/>
-$ pip3 install --upgrade pip <br/>
-$ python3 -m pip install Cython #pip3 install Cython<br/>
-$ python3 -m pip install numpy torch-1.8.0-cp36-cp36m-linux_aarch64.whl<br/>
-$ sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev <br/> 
-$ git clone --branch v0.9.0 https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download <br/>
-$ cd torchvision <br/> 
-$ export BUILD_VERSION=0.9.0  # where 0.x.0 is the torchvision version  <br/> 
-$ python3 setup.py install --user <br/> 
-$ cd ../  <br/> 
-$ python3 -m pip install 'pillow<7' <br/>
-$ python3 <br/>
+## Verify Packages to install <br/>
 '>>> import torch <br/>
 '>>> import torchvision <br/>
 '>>> print (torch.__ version__) <br/>
-1.8.0 <br/>
+1.12.0 <br/>
 '>>> print (torchvision.__ version__) <br/>
-0.9.0 <br/>
+0.13.0 <br/>
 '>>> exit() <br/>
 $ python3 -m pip install cython  <br/>
 $ python3 -m pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI' <br/>
