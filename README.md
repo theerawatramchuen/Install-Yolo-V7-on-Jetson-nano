@@ -18,7 +18,7 @@ $ python3 -m pip install pyyaml --upgrade <br/>
 ![alt text](https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png)<br/>
 $ git clone https://github.com/WongKinYiu/yolov7.git <br/>
 $ cd yolov7 <br/>
-$ wget https://github.com/theerawatramchuen/Install-Yolo-V7-on-Jetson/blob/main/requirements.txt <br/>
+$ pip3 install numpy==1.19.4 <br/>
 $ pip3 install -r requirements.txt <br/>
 
 ## Pre-trained Object Detection:
