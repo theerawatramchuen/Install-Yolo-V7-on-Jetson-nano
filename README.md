@@ -2,7 +2,7 @@
 Make sure you are in MAXN Power Mode in order to compile in decent time.<br/>
 
 ## Environment <br/>
-Ubuntu 20.04 ([get disk image from Qengineering](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image))<br/>
+Ubuntu 20.04 ([get disk image from Q-engineering](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image))<br/>
 Pre-installed <br/>
 JetPack version: 4.6 <br/>
 cuDnn: 8.2 <br/>
