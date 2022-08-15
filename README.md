@@ -1,7 +1,7 @@
 # Install and run Yolo V7 on Nvidia Jetson Nano
 
 ## Environment <br/>
-Ubuntu 20.04 (Thanks for Q-Engineering team to prepare disk image to make this installation is super easy) [get disk image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image))<br/>
+Ubuntu 20.04 (Thanks for Q-Engineering team to prepare disk image to make this installation is super easy) [Click for disk image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image)<br/>
 MAXN Power Mode <br/>
 Packages Pre-installed <br/>
 * JetPack version: 4.6 <br/>
