@@ -1,15 +1,15 @@
 # Install and run Yolo V7 on Nvidia Jetson Nano
 
 ## Environment <br/>
-Ubuntu 20.04 ([get disk image from Q-engineering](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image))<br/>
+Ubuntu 20.04 (Thanks for Q-Engineering team to prepare disk image to make super easy for jetson nano [get disk image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image))<br/>
 MAXN Power Mode <br/>
 Packages Pre-installed <br/>
-JetPack version: 4.6 <br/>
-cuDnn: 8.2 <br/>
-CUDA: 10.2 <br/>
-pytorch: 1.12.0 <br/>
-torchvision: 0.13.0 <br/>
-opencv: 4.6 <br/>
+* JetPack version: 4.6 <br/>
+* cuDnn: 8.2 <br/>
+* CUDA: 10.2 <br/>
+* pytorch: 1.12.0 <br/>
+* torchvision: 0.13.0 <br/>
+* opencv: 4.6 <br/>
 ## Packages to install <br/>
 $ python3 -m pip install cython  <br/>
 $ python3 -m pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI' <br/>
