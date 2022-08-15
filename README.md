@@ -36,7 +36,7 @@ Results Directory : [yolov7/runs/detect/exp/horses.jpg] <br/>
 
 
 ## Detect on Web Cam device 0
-$ python3 detect.py --weights yolov7-tiny.pt --img 640 --source 0 ([short on youtube](https://youtube.com/shorts/BMCxzT6tjfc?feature=share))<br/><br/>
+$ python3 detect.py --weights yolov7-tiny.pt --img 640 --source 0 ([short youtube](https://youtube.com/shorts/BMCxzT6tjfc?feature=share))<br/><br/>
 ![alt text](https://github.com/theerawatramchuen/Install-Yolo-V7-on-Jetson-nano/blob/main/yolov7-webcam-jetson.jpg)<br/>
 
 
