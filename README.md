@@ -1,8 +1,8 @@
 # Install and run Yolo V7 on Nvidia Jetson Nano
-Make sure you are in MAXN Power Mode in order to compile in decent time.<br/>
 
 ## Environment <br/>
 Ubuntu 20.04 ([get disk image from Q-engineering](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image))<br/>
+MAXN Power Mode <br/>
 Packages Pre-installed <br/>
 JetPack version: 4.6 <br/>
 cuDnn: 8.2 <br/>
@@ -24,9 +24,9 @@ $ pip3 install -r requirements.txt <br/>
 
 ## Pre-trained Object Detection:
 
-We have installed all of the modules. We are ready for testing the detection with pre-trained weights to confirm that all of our modules are working fine. You can use the mentioned command in terminal/cmd to detect objects with the pre-trained weights. <br/>
+If installation is good done for all of the modules. We are ready for testing the detection with pre-trained weights to confirm that all of our modules are working fine. <br/>
 
-Note: YOLOv7 weights must need to be in the yolov7 folder, download the pre-trained weights file from this ([yolov7.py](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt)) or ([yolov7-tiny.py](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt)) if you want a higher processing speed such as video analytic project and move the downloaded file to the current working directory {yolov7} <br/>
+Note: YOLOv7 weights must need to be in the yolov7 folder, download the pre-trained weights file from this ([yolov7.py](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt)) or ([yolov7-tiny.py](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt)) if you want a better FPS of video analytic then move the downloaded files to the current working directory yolov7 <br/>
 
 $ python3 detect.py --weights yolov7.pt --source inference/images/horses.jpg --img 640 <br/><br/>
 If everything is working fine, then you will be able to get results in the directory as mentioned below.<br/>
@@ -35,7 +35,8 @@ Results Directory : [yolov7/runs/detect/exp/horses.jpg] <br/>
 
 
 ## Detect on Web Cam device 0
-$ python3 detect.py --weights yolov7-tiny.pt --img 640 --source 0 <br/><br/>
+$ python3 detect.py --weights yolov7-tiny.pt --img 640 --source 0 <br/>
+[short on youtube](https://youtube.com/shorts/BMCxzT6tjfc?feature=share)<br/>
 ![alt text](https://github.com/theerawatramchuen/Install-Yolo-V7-on-Jetson-nano/blob/main/yolov7-webcam-jetson.jpg)<br/>
 
 
