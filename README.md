@@ -1,5 +1,7 @@
 # Install and run Yolo V7 on Nvidia Jetson Nano
 
+![alt text](https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png)<br/>
+
 ## Environment <br/>
 * Ubuntu 20.04 (Thanks for Q-Engineering team to prepare disk image to make this installation is super easy) [Click for disk image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image)<br/>
 * MAXN Power Mode <br/>
@@ -17,7 +19,6 @@ $ python3 -m pip install pyyaml --upgrade <br/>
 $ pip3 install numpy==1.19.4 <br/>
 
 ## Clone the YOLOv7 repository<br/>
-![alt text](https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png)<br/>
 $ git clone https://github.com/WongKinYiu/yolov7.git <br/>
 $ cd yolov7 <br/>
 $ pip3 install -r requirements.txt <br/>
