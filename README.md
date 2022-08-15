@@ -27,7 +27,7 @@ $ pip3 install -r requirements.txt <br/>
 
 If installation is good done for all modules. We are now ready for testing the detection with pre-trained weights to confirm that all of our modules are working fine. <br/>
 
-Note: YOLOv7 weights must need to be in the yolov7 folder, download the pre-trained weights file from this ([yolov7.py](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt)) or ([yolov7-tiny.py](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt)) if you want a better FPS of video analytic then move the downloaded files to the current working directory yolov7 <br/>
+Note: YOLOv7 weights must need to be in the yolov7 folder, download the pre-trained weights file from this ([yolov7.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt)) or ([yolov7-tiny.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt)) if you want a better FPS of video analytic then move the downloaded files to the current working directory yolov7 <br/>
 
 $ python3 detect.py --weights yolov7.pt --source inference/images/horses.jpg --img 640 <br/><br/>
 If everything is working fine, then you will be able to get results in the directory as mentioned below.<br/>
